@@ -1,0 +1,43 @@
+<div ng-controller="PersonsController">
+	<h4> Persons </h4>
+	
+	<a class="btn btn-primary btnNewPerson" ng-click="createPerson()"> New </a>
+	
+	<table class="table">
+		<tr>
+			<!-- Id -->
+			<th> 
+				Id
+			</th>
+			
+			<!-- Name -->
+			<th>
+				Name
+			</th>
+			
+			<!-- Age -->
+			<th>
+				Age
+			</th>
+			
+			<!-- Actions -->
+			<th></th>
+		<tr ng-repeat="person in persons">
+			<td>
+				{{person.id}}
+			</td>
+			
+			<td>
+				{{person.name}}
+			</td>
+			
+			<td>
+				{{person.age}}
+			</td>
+			
+			<td>
+				<a ng-href = "#/persons/{{person.id}}" class="btn btn-default"> Detail </a>
+			</td>
+		</tr>
+	</table>
+</div>

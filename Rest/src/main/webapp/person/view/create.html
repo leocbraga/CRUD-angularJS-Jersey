@@ -1,0 +1,18 @@
+<div ng-controller="PersonsController">
+	<form name=frmPerson" ng-submit="save()">
+		 <!-- Controlar erros backend -->
+		 <div class="alert alert-danger" ng-show="errors" role="alert"> Invalida Data! </div>
+		 
+		 <div class="form-group">
+			<label>	Name: </label>
+			<input type="text" class="form-control" name="name" ng-model="person.name" required />
+		</div>
+		
+		<div class="form-group">
+			<label> Age: </label>
+			<input type="number" class="form-control" name="name" ng-model="person.age" required />
+		</div>
+			
+		<input type="submit" class="btn btn-primary btnSave" value="Save"/>
+	</form>
+</div>

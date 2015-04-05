@@ -1,0 +1,25 @@
+.btnNewPerson{
+	float: right;
+	margin-bottom: 10px;
+}
+
+.btnActionsPerson{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.btnUpdate{
+	float: right;
+}
+
+.btnSave{
+	float: right;
+}
+
+.container{
+	margin: 8px;
+}
+
+.container ul{
+	list-style-type: none;
+}
