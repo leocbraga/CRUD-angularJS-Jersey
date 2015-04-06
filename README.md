@@ -1,4 +1,4 @@
-#Crud - AngularJS + Jersey.
+#CRUD - AngularJS + Jersey.
 ===========================================================
 
 ###Projeto de um CRUD básico utilizando AngularJS e Jersey (Restful).
