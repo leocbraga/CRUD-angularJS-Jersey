@@ -3,7 +3,7 @@
 
 ###Projeto de um CRUD básico utilizando AngularJS e Jersey (Restful).
 
-###Tecnologias
+###Tecnologias:
 
 ###Front-end:
   
