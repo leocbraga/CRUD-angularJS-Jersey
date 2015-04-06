@@ -1,9 +1,9 @@
 #Crud - AngularJS + Jersey.
 ===========================================================
 
-##Projeto de um CRUD básico utilizando AngularJS e Jersey (Restful).
+###Projeto de um CRUD básico utilizando AngularJS e Jersey (Restful).
 
-#Tecnologias
+###Tecnologias
 
 ###Front-end:
   
@@ -12,7 +12,7 @@
   - Jquery; e
   - CSS.
 
-##Back-end:
+###Back-end:
 
   - Java 1.7;
   - JAX-RS (Jersey);
@@ -20,6 +20,6 @@
   - CDI (Weld); e
   - Tomcat 7.
   
-## Sistema Gerenciador de Banco de Dados:
+### Sistema Gerenciador de Banco de Dados:
 
   - MySQL.
