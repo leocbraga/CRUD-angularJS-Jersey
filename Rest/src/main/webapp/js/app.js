@@ -28,3 +28,7 @@ app.config(["$routeProvider", "$locationProvider", function($routeProvider, $loc
 	});
 	
 }]);
+
+app.value("appValue", {
+	baseUrl: "/Rest/services"
+});
