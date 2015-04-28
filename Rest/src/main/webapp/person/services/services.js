@@ -1,14 +1,15 @@
-const URL_PERSONS = "/Rest/services/person";
-const URL_PERSON = "/Rest/services/person/:id"
-
-app.factory("PersonsService", ["$resource", function($resource){
+app.factory("PersonsService", ["$resource", "appValue", function($resource, appValue){
+	var URL_PERSONS = appValue.baseUrl + "/person";
+	
 	return $resource(URL_PERSONS, {}, {
 		query: {method: 'GET', isArray: true},
 		create: {method: 'POST'}
 	});	
 }]);
 
-app.factory("PersonService", ["$resource", function($resource){
+app.factory("PersonService", ["$resource", "appValue", function($resource, appValue){
+	var URL_PERSON = appValue.baseUrl + "/person/:id"
+		
 	return $resource(URL_PERSON, {}, {
 		show: {method: 'GET', params: {id: '@id'}},
 		update: {method: 'PUT'},
